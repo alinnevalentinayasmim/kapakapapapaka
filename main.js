@@ -13,10 +13,10 @@ function criarCartao(Categoria,Pergunta,Resposta){
     </div>
 </div>
    `
-   let RespostaEstaInvisivel = false;
+   let RespostaEstaVisivel = false;
    function viracartao(){
-    RespostaEstaInvisivel = !RespostaEstaInvisivel;
-    cartao.classList.toggle('active', RespostaEstaInvisivel);
+    RespostaEstaVisivel = !RespostaEstaVisivel;
+    cartao.classList.toggle('active', RespostaEstaVisivel);
    }
    cartao.addEventListener('click', viracartao);
    
